@@ -8,7 +8,7 @@ import Home from './pages/Home';
 import PropertyDetails from './pages/PropertyDetails';
 const App = () => {
   return (
-    <div className=" w-full sm:max-w-[80%] mx-auto bg-white shadow">
+    <div className=" w-full sm:max-w-[100%] mx-auto bg-white shadow">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
